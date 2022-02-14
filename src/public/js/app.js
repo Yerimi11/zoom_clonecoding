@@ -108,7 +108,7 @@ async function initCall() {
   call.hidden = false;
   await getMedia();
   makeConnection();
-}
+} 
 
 async function handleWelcomeSubmit(event) {
   event.preventDefault();
